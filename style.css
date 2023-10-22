@@ -198,9 +198,9 @@ body {
 
 /* Media Query para estilos em dispositivos móveis */
 @media (max-width: 768px) {
-    /* Guias e subguias */
+    /* Guias principais */
     .tab .tablinks {
-        display: block;
+        display: inline;
         margin-bottom: 2%;
     }
 
