@@ -208,4 +208,9 @@ body {
     body {
         background-color: thistle;
     }
+
+    .logo {
+        width: 60%; 
+        height: auto; 
+    }
 }
