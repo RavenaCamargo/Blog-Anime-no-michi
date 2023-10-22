@@ -52,10 +52,8 @@
 
 /* Estilo para a imagem de perfil */
 .profile-picture {
-    width: 20%;
-    height: 20%;
-    max-width: 260px;
-    max-height: 260px;
+    width: 260px;
+    height: 260px;
     border-radius: 50%;
     overflow: hidden;
     float: left;
@@ -209,5 +207,16 @@ body {
     /* Cor de fundo alternativa para dispositivos móveis (alguns ficavam em preto) */
     body {
         background-color: thistle;
+    }
+
+    /* Ajustando o tamanho da imagem de perfil no celular */
+    .profile-picture {
+        width: 160px;
+        height: 160px;
+    }
+
+    /* Ajustando o tamanho dos titulos da grade  */
+    .grid-item.square h3 {
+        font-size: 3vw;
     }
 }
