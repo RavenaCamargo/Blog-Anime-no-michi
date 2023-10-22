@@ -1,6 +1,7 @@
 /* Estilos padrão para guias em tela grande */
 .tab {
     display: inline-block;
+    padding-top: 2%;
 }
 
 .tablinks {
@@ -11,14 +12,6 @@
     width: 100%;
     height: 100%;    
     border-radius: 15px;
-}
-
-/* Media Query para estilos em dispositivos móveis */
-@media (max-width: 768px) {
-    .tab .tablinks {
-        display: block;
-        margin-bottom: 2%;
-    }
 }
 
 /* Estilos para subguias (guias dentro da tab Recomendações) */
@@ -59,8 +52,10 @@
 
 /* Estilo para a imagem de perfil */
 .profile-picture {
-    width: 260px;
-    height: 260px;
+    width: 20%;
+    height: 20%;
+    max-width: 260px;
+    max-height: 260px;
     border-radius: 50%;
     overflow: hidden;
     float: left;
@@ -75,12 +70,23 @@
 
 /* Estilo para o logo */
 .logo {
-    text-align: center;
-    width: 30%;
-    height: 30%;
-    padding-bottom: 2%;
+    width: 20%; 
+    height: auto; 
+    border-radius: 50%;
+    border: 2px solid purple;
+    overflow: hidden;
+    display: block;
     margin: 0 auto;
 }
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
 
 /* Estilo para algumas imagens e gifs */
 .gifsRecomendacoes {
@@ -116,7 +122,7 @@ body {
 
 /* Estilo do retângulo branco do body */
 .content-container {
-    background-color: #edd1e7;
+    background-color: #eac2e1;
     border: 2px solid purple;
     border-radius: 2%;
     padding: 2%;
@@ -188,4 +194,20 @@ body {
 /* Quando o mouse passar por cima, pode adicionar uma sombra */
 .grid-item.square:hover {
     box-shadow: 0 0 2% rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* Media Query para estilos em dispositivos móveis */
+@media (max-width: 768px) {
+    /* Guias e subguias */
+    .tab .tablinks {
+        display: block;
+        margin-bottom: 2%;
+    }
+
+    /* Cor de fundo alternativa para dispositivos móveis (alguns ficavam em preto) */
+    body {
+        background-color: thistle;
+    }
 }
