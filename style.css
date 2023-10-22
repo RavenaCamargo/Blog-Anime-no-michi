@@ -68,8 +68,8 @@
 
 /* Estilo para o logo */
 .logo {
-    width: 240px;
-    height: 240px;
+    width: 20%;
+    height: auto;
     border-radius: 50%;
     border: 2px solid purple;
     overflow: hidden;
@@ -198,7 +198,7 @@ body {
 
 /* Media Query para estilos em dispositivos móveis */
 @media (max-width: 768px) {
-    /* Guias principais */
+    /* Guias e subguias */
     .tab .tablinks {
         display: inline;
         margin-bottom: 2%;
@@ -210,7 +210,7 @@ body {
     }
 
     .logo {
-    width: 140px;
-    height: 140px;
+        width: 70%;
+        height: auto;
     }
 }
