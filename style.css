@@ -68,8 +68,8 @@
 
 /* Estilo para o logo */
 .logo {
-    width: 30%; 
-    height: auto; 
+    width: 240px;
+    height: 240px;
     border-radius: 50%;
     border: 2px solid purple;
     overflow: hidden;
@@ -207,10 +207,5 @@ body {
     /* Cor de fundo alternativa para dispositivos móveis (alguns ficavam em preto) */
     body {
         background-color: thistle;
-    }
-
-    .logo {
-        width: 100%; 
-        height: auto; 
     }
 }
