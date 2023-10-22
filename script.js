@@ -49,9 +49,3 @@ function openSubTabFromHome(element) {
         subtabtitles[j].style.display = "none";
     }
 }
-
-tab1GridItems.forEach(function (element) {
-element.addEventListener("click", function () {
-openSubTabFromHome(element);
-});
-});
