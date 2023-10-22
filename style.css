@@ -68,7 +68,7 @@
 
 /* Estilo para o logo */
 .logo {
-    width: 20%; 
+    width: 30%; 
     height: auto; 
     border-radius: 50%;
     border: 2px solid purple;
@@ -178,7 +178,7 @@ body {
 
 /* Estilos para os títulos dentro da grade */
 .grid-item.square h3 {
-    font-size: 1.5vw;
+    font-size: large;
     margin-top: 2%;
     margin-bottom: 1%;
 }
@@ -207,16 +207,5 @@ body {
     /* Cor de fundo alternativa para dispositivos móveis (alguns ficavam em preto) */
     body {
         background-color: thistle;
-    }
-
-    /* Ajustando o tamanho da imagem de perfil no celular */
-    .profile-picture {
-        width: 160px;
-        height: 160px;
-    }
-
-    /* Ajustando o tamanho dos titulos da grade  */
-    .grid-item.square h3 {
-        font-size: 3vw;
     }
 }
