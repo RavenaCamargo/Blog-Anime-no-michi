@@ -212,7 +212,7 @@ body {
         height: auto;
     }
 
-    /* Para celular mostra uma coluna em vez de duas*/
+    /* Grade da home*/
     .grid-container {
         grid-template-columns: repeat(1, 1fr); 
     }
