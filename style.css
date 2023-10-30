@@ -211,4 +211,13 @@ body {
         width: 50%;
         height: auto;
     }
+
+    /* Para celular mostra uma coluna em vez de duas*/
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr); 
+    }
+
+    .grid-item.square img {
+        max-width: 100%;
+    }
 }
